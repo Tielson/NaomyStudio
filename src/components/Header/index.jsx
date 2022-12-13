@@ -1,4 +1,5 @@
 import { Container } from "./styles";
+import {img1} from "../../../img/Ativo1.png"
 
 
 export function Header(){
@@ -6,7 +7,7 @@ export function Header(){
         <Container>
            <div >
             <a href="/#home">
-            <img src="../../../img/Ativo1.png" alt="Logo"/>
+            <img src={img1} alt="Logo"/>
             </a>
             </div> 
 

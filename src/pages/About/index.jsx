@@ -1,4 +1,5 @@
 import { Container } from "./styles";
+import {img1} from "../../../img/foto2.png"
 
 export function About() {
     return (
@@ -16,7 +17,7 @@ export function About() {
             </div>
 
             <div>
-                <img src="../../../img/foto2.png" alt="Foto Naomy" />
+                <img src={img1} alt="Foto Naomy" />
             </div>
         </Container>
     )

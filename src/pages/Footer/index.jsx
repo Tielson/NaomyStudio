@@ -4,7 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi'
 import { GoLocation } from 'react-icons/go'
 import { FaDev } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
-
+import {img1} from "../../../img/Ativo1 1.png"
 
 export function Footer() {
 
@@ -13,7 +13,7 @@ export function Footer() {
             <div className="box">
 
                 <div className="c1">
-                <img src="../../../img/Ativo1 1.png" alt="Logo"/>
+                <img src={img1} alt="Logo"/>
                     <p>Sou especialista em make beauty e penteados para eventos e editoriais.</p>
                     <p> Trabalho com atendimentos personalizados para noivas, madrinhas, formandas, debutantes e
                         também assistência para modelos em editoriais.</p>
