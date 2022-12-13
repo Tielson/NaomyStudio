@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import {img1} from "../../../img/Ativo1.png"
+import img1 from "../../../img/Ativo1.png"
 
 
 export function Header(){
