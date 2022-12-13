@@ -1,13 +1,13 @@
 import { Container } from "./styles";
-import png4 from '../../../img/fotos/1.jpeg '
-import png1 from '../../../img/fotos/2.jpeg '
-import png2 from '../../../img/fotos/3.jpeg '
-import png3 from '../../../img/fotos/9.jpeg '
-import png10 from '../../../img/fotos/10.jpeg '
-import png5 from '../../../img/fotos/6.jpeg '
-import png6 from '../../../img/fotos/7.jpeg '
-import png7 from '../../../img/fotos/5.jpeg '
-import png8 from '../../../img/fotos/8.jpeg '
+import png4 from '../../../img/fotos/1.jpeg'
+import png1 from '../../../img/fotos/2.jpeg'
+import png2 from '../../../img/fotos/3.jpeg'
+import png3 from '../../../img/fotos/9.jpeg'
+import png10 from '../../../img/fotos/10.jpeg'
+import png5 from '../../../img/fotos/6.jpeg'
+import png6 from '../../../img/fotos/7.jpeg'
+import png7 from '../../../img/fotos/5.jpeg'
+import png8 from '../../../img/fotos/8.jpeg'
 
 
 
