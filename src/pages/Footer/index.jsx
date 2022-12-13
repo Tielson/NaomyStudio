@@ -4,7 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi'
 import { GoLocation } from 'react-icons/go'
 import { FaDev } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
-import {img1} from "../../../img/Ativo1 1.png"
+import img1 from "../../../img/Ativo1 1.png"
 
 export function Footer() {
 
