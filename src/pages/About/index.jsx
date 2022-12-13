@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import {img1} from "../../../img/foto2.png"
+import img1 from "../../../img/foto2.png"
 
 export function About() {
     return (
