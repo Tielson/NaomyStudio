@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 /* height: 88vh; */
-padding: 2rem;
+padding: 4rem 2rem 2rem;
 
 
 .box{
