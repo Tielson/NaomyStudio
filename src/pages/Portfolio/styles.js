@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-height: 88vh;
+/* height: 88vh; */
+padding: 2rem;
 
 
 .box{
@@ -11,13 +12,14 @@ height: 88vh;
         >h2{
         font-weight:500;
         color: ${({theme}) => theme.COLORS.PANTONE_3};
-        margin: 3.0rem 0 3.0rem 2.0rem ;
-        
+        margin: 1rem 0 1rem 2.0rem ;
+        font-size: 2rem;
         }
         >h1{
         font-weight:700;
         color: ${({theme}) => theme.COLORS.PANTONE_4};
-        margin: 3.0rem 0 3.0rem 2.0rem ;
+        margin: 1.0rem 0 3.0rem 2.0rem ;
+        font-size: 3rem;
         }
     
         >div.e1{
@@ -36,24 +38,47 @@ height: 88vh;
         }
             ::-webkit-scrollbar {
             background: transparent;
-            width: .1rem;   
-            height: 1.5rem;
+            width: 5rem;   
+            height: 1rem;
         }
             ::-webkit-scrollbar-thumb {
             border-radius: 1rem;
             background: ${({theme}) => theme.COLORS.PANTONE_1};
             }
         
-        
-        
-        
             list-style: none;
             gap: 2rem;
             img{
-                width: 40rem;
+                width: 21rem;
                 border-radius: 50% 1%;
             }
             }
+        
+        
+        
+}
+
+@media(min-width:25rem){
+   .box{
+
+       >div .e2{
+           img{
+               width: 30rem;
+            }
+        }
+    }
+
+}
+@media(min-width: 40rem){
+   .box{
+    padding: 5rem 0 5rem;
+       >div .e2{
+           img{
+               width: 40rem;
+            }
+        }
+    }
+
 }
 
 

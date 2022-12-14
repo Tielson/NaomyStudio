@@ -13,13 +13,19 @@ export default createGlobalStyle`
 
 body{
     background-color: ${({ theme }) => theme.COLORS.PANTONE_2};
-    color:${({ theme }) => theme.COLORS.WHITE } ;
+    color:${({ theme }) => theme.COLORS.WHITE} ;
     
     -webkit-font-smoothing: antialiased; 
 
     font-size: 1.6rem;
 
 
+}
+
+@media (min-width:20rem) {
+    :root{
+        font-size: 62,5%;
+    }
 }
 
 a{
@@ -41,4 +47,6 @@ a{
         font-size: 1.6rem;
         outline: none;
     }
+
+
 `

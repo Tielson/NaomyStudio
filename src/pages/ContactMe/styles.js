@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 width: 100%;
-height: 70vh;
-padding-left: 10.0rem;
+padding: 1rem 1rem 4rem;
 
 background-color: ${({ theme }) => theme.COLORS.GRAY_200};
 
@@ -24,9 +23,10 @@ background-color: ${({ theme }) => theme.COLORS.GRAY_200};
 >div{
 
     h2{
+        padding-top: 1rem;
         color: ${({ theme }) => theme.COLORS.PANTONE_2};
         margin-bottom: 1.5rem;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     h1{
         color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
@@ -44,7 +44,7 @@ background-color: ${({ theme }) => theme.COLORS.GRAY_200};
        
         line-height: 2em;
         font-family: 'Didact Gothic', sans-serif;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         font-weight: 300;
         color: ${({theme}) => theme.COLORS.BACKGROUND_900};
         gap: 1.5rem;

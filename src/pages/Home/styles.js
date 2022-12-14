@@ -1,26 +1,26 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-width: 100%;
-height: 100vh;
+width: 100vw ;
 display: grid;
-
+/* margin-top: 5rem; */
+padding: 8rem 0 3rem;
 `
 export const Content = styled.div`
+width: 100%;
+margin: auto;
 display: grid;
 align-items: center;
-grid-template-columns: 34% 66%;
+grid-template-columns: 50% 50%;
 
-/* background-color: ${({theme}) => theme.COLORS.GRAY_200}; */
 
 ;
 
     >div:nth-child(1){
     >img{
-        margin-left: 20px;
-        padding-top: 70px;
+        margin-left: 2.0rem;
         border-radius: 50% 0%;
-        width: 70.0rem;
+        width: 14rem;
     }
     }
     >div:nth-child(2){
@@ -29,12 +29,76 @@ grid-template-columns: 34% 66%;
 
         display:flex;
         align-items: center;
-        padding: 3rem;
+        padding-right: 1rem;
         justify-content: flex-end;
 
             img{
-                width: 100.0rem;
+                width: 10.0rem;
             }
     }
+
+
+
+
+
+    @media(min-width:25rem){
+
+           >div:nth-child(1){
+       >img{
+           width: 18rem;
+       }
+       }
+       >div:nth-child(2){
+        padding-right: 1.5rem;
+               img{
+                   width: 18.0rem;
+               }
+       } 
+ }
+    @media(min-width:32rem){
+
+           >div:nth-child(1){
+       >img{
+           width: 25rem;
+       }
+       }
+       >div:nth-child(2){
+           img{
+               width: 23.0rem;
+            }
+        } 
+    }
+    @media(min-width:53rem){
+        
+        padding-right: 2rem;
+
+           >div:nth-child(1){
+       >img{
+           width: 47rem;
+       }
+       }
+       >div:nth-child(2){
+        padding-right: 1.5rem;
+               img{
+                   width: 30.0rem;
+               }
+       } 
+ }
+    @media(min-width:75rem){
+        
+        padding-right: 4rem;
+
+           >div:nth-child(1){
+       >img{
+           width: 60rem;
+       }
+       }
+       >div:nth-child(2){
+        padding-right: 1.5rem;
+               img{
+                   width: 50rem;
+               }
+       } 
+ }
  
 `
