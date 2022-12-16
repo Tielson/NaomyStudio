@@ -4,7 +4,7 @@ export const Container = styled.div`
 width: 100vw ;
 display: grid;
 /* margin-top: 5rem; */
-padding: 8rem 0 3rem;
+padding: 6rem 0rem 1rem;
 `
 export const Content = styled.div`
 width: 100%;
@@ -12,7 +12,6 @@ margin: auto;
 display: grid;
 align-items: center;
 grid-template-columns: 50% 50%;
-
 
 ;
 
@@ -41,7 +40,9 @@ grid-template-columns: 50% 50%;
 
 
 
-    @media(min-width:25rem){
+    @media(min-width:38rem){
+
+        padding: 4rem 8rem 4rem;
 
            >div:nth-child(1){
        >img{
@@ -55,7 +56,9 @@ grid-template-columns: 50% 50%;
                }
        } 
  }
-    @media(min-width:32rem){
+    @media(min-width:46rem){
+
+        padding: 4rem 8rem 4rem;
 
            >div:nth-child(1){
        >img{
@@ -68,9 +71,9 @@ grid-template-columns: 50% 50%;
             }
         } 
     }
-    @media(min-width:53rem){
+    @media(min-width:62rem){
         
-        padding-right: 2rem;
+        padding: 4rem 8rem 4rem;
 
            >div:nth-child(1){
        >img{
@@ -84,13 +87,13 @@ grid-template-columns: 50% 50%;
                }
        } 
  }
-    @media(min-width:75rem){
+    @media(min-width:88rem){
         
-        padding-right: 4rem;
+        padding: 5rem 15rem 5rem;
 
            >div:nth-child(1){
        >img{
-           width: 60rem;
+           width: 50rem;
        }
        }
        >div:nth-child(2){

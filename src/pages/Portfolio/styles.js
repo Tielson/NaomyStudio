@@ -18,7 +18,7 @@ padding: 4rem 2rem 2rem;
         >h1{
         font-weight:700;
         color: ${({theme}) => theme.COLORS.PANTONE_4};
-        margin: 1.0rem 0 3.0rem 2.0rem ;
+        margin: 1.0rem 0 1.0rem 2.0rem ;
         font-size: 3rem;
         }
     
@@ -59,6 +59,8 @@ padding: 4rem 2rem 2rem;
 }
 
 @media(min-width:25rem){
+
+    padding-top: 1rem;
    .box{
 
        >div .e2{

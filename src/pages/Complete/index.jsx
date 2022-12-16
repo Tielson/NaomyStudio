@@ -7,19 +7,21 @@ import { About } from "../About";
 import { Home } from "../Home";
 
 
+
 export function Complete() {
+
     return (
         <Container>
             <Header />
-            <div id="home">
+            <div id="home" >
                 <Home />
                 <About />
             </div>
-           
-            <div id="portfolio">
+
+            <div id="portfolio" >
                 <Portfolio />
             </div>
-            <div id="contactMe">
+            <div id="contactMe" >
                 <ContactMe />
                 <Footer />
             </div>

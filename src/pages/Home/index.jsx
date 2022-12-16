@@ -1,8 +1,6 @@
 import { Container, Content } from "./styles"
-import { Header } from "../../components/Header"
-import { About } from "../About"
 import  img1  from "../../../img/foto1.png"
-import  img2  from "../../../img/Ativo3.png"
+import  img2  from "../../../img/loogo.png"
 
 export function Home() {
 

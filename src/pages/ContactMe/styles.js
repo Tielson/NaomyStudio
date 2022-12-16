@@ -2,15 +2,15 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 width: 100%;
-padding: 1rem 1rem 4rem;
 
 background-color: ${({ theme }) => theme.COLORS.GRAY_200};
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-    .box{
+display: flex;
+flex-direction: row;
+align-items: center;
+
+.box{
+    padding: 5rem 1rem 3rem;
         display: flex;
         flex-direction: column;
 
@@ -59,8 +59,10 @@ background-color: ${({ theme }) => theme.COLORS.GRAY_200};
                 color: ${({ theme }) => theme.COLORS.PANTONE_2};
                 font-size: 2.0rem;
             }
-
     }
+}
 
+@media (min-width: 43rem) {
+    padding-top: 2rem;
 }
 `
